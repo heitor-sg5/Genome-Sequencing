@@ -19,7 +19,7 @@ To reconstruct the full genome, we rely on computational algorithms that can ass
 - `generate_kmer_read_pairs.py`: Generates a list of single and paired k-mer reads d bases apart given a genome.
 - `overlap_graph_hamiltonian_path.py`: Finds the Hamiltonian path of an overlap graph to reconstruct the genome.
 - `debrujin_eulerian_path.py`: Finds the Eulerian path of a de Brujin graph to reconstruct the genome.
-- `paired_debrujin_eulerian_path.py`: Finds the eulerian path of a paired de Brujin graph to reconstruct the genome.
+- `paired_debrujin_eulerian_path.py`: Finds the Eulerian path of a paired de Brujin graph to reconstruct the genome.
 - `maximal_non-branching_debrujin_eulerian_path.py`: Finds all maximal non-branching Eulerian paths in a de Brujin graph.
 - `kmers_output.txt`: An example input file with a list of single k-mer reads.
 - `read_pairs_output.txt`: An example input file with paired k-mer reads d bases apart.
@@ -42,7 +42,7 @@ There are three types of inputs depending on the algorithm:
 
 Each script reads from the input file and prints:
 
-- Two text files with simulated **single and paired k-mer reads**, if using `generate_kmer_read_pairs.py`
+- Two text files with simulated **single and paired k-mer reads** in lexicographical order, if using `generate_kmer_read_pairs.py`
 - The reconstructed **genome sequence**
 - A list of **maximal non-branching paths**, if using `maximal_non-branching_debrujin_eulerian_path.py`
 
