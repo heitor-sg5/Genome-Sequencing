@@ -111,24 +111,20 @@ You can change the default parameters (k, t, and N) directly in each script's fu
 
 ---
 
+## 🧪 Example Output
+
+- Paired k-mer Reads:
+  
+    (ACG,CCT) (AGG,CGG) (CCT,AGG) (CGG,CTA) (GAC,GCC) (GCC,AAG) (GGA,GGC) (GGC,TAA) (TAG,ACG)
+
+- Paired de Brujin Eulerisn Path:
+  
+    Genome: TAGGACGGCCTAAGG
+
+---
+
 ## 👤 Author
 
 Heitor Gelain do Nascimento
 Email: heitorgelain@outlook.com
 GitHub: @heitor-sg5
-
----
-
-## 🧪 Example Output
-
-Consensus: GAAAAAAATTTTTTT
-
-Score: 2
-
-Best Motifs: 
-'CAAAAAAATTTTTTT', 
-'GAAAAAAATTTTTTT', 
-'GAAAAAAATTTTTTT', 
-'CAAAAAAATTTTTTT', 
-'GAAAAAAATTTTTTT', 
-'GAAAAAAATTTTTTT'
