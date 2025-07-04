@@ -1,6 +1,6 @@
 # Genome Sequencing Algorithms
 
-This repository contains implementations of key algorithms used in genome assembly and sequencing analysis. The focus is on graph-based approaches, particularly De Bruijn and Overlap graphs, which reconstruct sequences from k-mer reads, similar to data generated in real-world DNA sequencing experiments.
+This repository contains implementations of key algorithms used in genome assembly and sequencing analysis. The focus is on graph-based approaches, particularly de Bruijn and Overlap graphs, which reconstruct sequences from k-mer reads, similar to data generated in real-world DNA sequencing experiments.
 
 ---
 
