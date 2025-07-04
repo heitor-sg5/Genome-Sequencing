@@ -128,3 +128,11 @@ You can change the default parameters (k, t, and N) directly in each script's fu
 Heitor Gelain do Nascimento
 Email: heitorgelain@outlook.com
 GitHub: @heitor-sg5
+
+---
+
+## 📚 References
+
+Bioinformatics Algorithms: An Active Learning Approach (Chapter 3) by
+Phillip Compeau & Pavel Pevzner
+https://bioinformaticsalgorithms.com
