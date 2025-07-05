@@ -117,7 +117,7 @@ You can change the default parameters k (k-mer read length) and d (gap between p
   
     (ACG,CCT) (AGG,CGG) (CCT,AGG) (CGG,CTA) (GAC,GCC) (GCC,AAG) (GGA,GGC) (GGC,TAA) (TAG,ACG)
 
-- Paired de Brujin Eulerisn Path:
+- Paired de Brujin Eulerian Path:
   
     Genome: TAGGACGGCCTAAGG
 
