@@ -73,7 +73,7 @@ Each script reads from the input file and prints:
   bash
 ```maximal_non-branching_debrujin_eulerian_path.py```
 
-You can change the default parameters (k, t, and N) directly in each script's function call at the bottom.
+You can change the default parameters k (k-mer read length) and d (gap between pairs) directly in each script's function call at the bottom.
 
 ---
 
