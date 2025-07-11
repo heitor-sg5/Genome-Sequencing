@@ -84,30 +84,35 @@ You can change the default parameters k (k-mer read length) and d (gap between p
 - Generates lists of single k-mers or paired k-mers (with a specified gap d) from a given genome.
 - Simulates the type of fragmented sequencing data produced in real-world labs.
 - Used as input for assembly algorithms such as de Bruijn or overlap graphs.
+- Time complexity: O(n * k * log n)
 
 ### Overlap Graph Hamiltonian Path
 
 - Constructs an overlap graph where nodes are reads and edges represent suffix-prefix matches.
 - Searches for a Hamiltonian path — a path visiting every read exactly once — to reconstruct the genome.
 - Accurate for small datasets but computationally intensive (NP-hard).
+- Time complexity: O(n!)
 
 ### de Brujin Graph Eulerian Path
 
 - Breaks reads into overlapping k-mers and builds a de Bruijn graph where edges represent k-mers and nodes represent (k–1)-mers.
 - Finds an Eulerian path — a path that visits every edge exactly once — to reconstruct the genome efficiently.
 - Scales well for large datasets and is robust to redundancy in reads.
+- Time complexity: O(n)
 
 ### Paired de Brujin Graph Eulerian Path
 
 - Builds a graph from paired k-mers separated by a known distance d.
 - Encodes both k-mer overlap and relative distance between paired reads.
 - Finds an Eulerian path through the paired de Bruijn graph to reconstruct genome sequences with long-range linkage.
+- Time complexity: O(n)
 
 ### Maximal Non-branching Paths
 
 - Identifies all non-branching paths in a de Bruijn graph that are maximal (cannot be extended without creating a branch).
 - Useful for identifying contigs — continuous sequences in fragmented genome assemblies.
 - Especially effective in separating linear regions from repetitive or ambiguous ones.
+- Time complexity: O(n)
 
 ---
 
